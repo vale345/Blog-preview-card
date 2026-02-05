@@ -12,12 +12,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Captura%20de%20pantalla%202026-02-05%20134934.png)
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io  
-- Live Site URL: https://your-live-site-url.com  
+- Solution URL: https://github.com/vale345/Blog-preview-card
+- Live Site URL: https://qr-code-component-lnen.vercel.app/
 
 ## My process
 
