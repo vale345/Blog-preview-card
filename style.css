@@ -6,32 +6,14 @@
   padding: 0;
 }
 
-/* body {
-  font-family: 'Figtree', sans-serif;
-  background-color: hsl(47, 88%, 63%);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
 body {
   font-family: 'Figtree', sans-serif;
   background-color: hsl(47, 88%, 63%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
 }
-
-/* CONTENEDOR */
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .container {
   flex: 1;
@@ -40,46 +22,47 @@ body {
   align-items: center;
 }
 
-
-/* TARJETA */
+/* CARD */
 .card {
-  background-color: white;
   width: 384px;
-  border-radius: 15px;
-  padding: 20px;
+  height:522px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
   box-shadow: 8px 8px 0 black;
+  overflow: hidden;
 }
 
-/* IMAGEN PRINCIPAL */
+/* IMAGE */
 .card-image {
-  width: 100%;
+  width: 336px;
+  height: 200px;
+  margin: 24px;
   border-radius: 10px;
-  margin-bottom: 15px;
+  object-fit: cover;
 }
 
-/* TEXTO */
-.text {
-  margin-bottom: 15px;
-}
-
+/* TEXT */
 .tag {
   background-color: hsl(47, 88%, 63%);
   display: inline-block;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 4px 12px;
+  border-radius: 4px;
   font-weight: 800;
   font-size: 14px;
+  margin-left: 24px;
   margin-bottom: 10px;
 }
 
 .date {
   font-size: 14px;
-  color: hsl(0, 0%, 7%);
+  margin-left: 24px;
   margin-bottom: 10px;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 24px;
+  margin-left: 24px;
   margin-bottom: 10px;
 }
 
@@ -88,33 +71,28 @@ body {
   cursor: pointer;
 }
 
-.title:focus {
-  color: hsl(47, 88%, 63%);
-}
-
 .description {
   font-size: 16px;
   color: hsl(0, 0%, 42%);
+  margin-left: 24px;
+  width: 336px;
 }
 
-/* AUTOR */
+/* AUTHOR */
 .author {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin: 24px;
 }
 
 .avatar {
   width: 32px;
   height: 32px;
-  border-radius: 50%;
 }
 
 .name {
-  font-size: 14px;
   font-weight: 800;
+  font-size: 14px;
 }
-
-
-
 
