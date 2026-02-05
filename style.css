@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px; /* espacio entre imagen y bloque de texto */
+}
+
+
+h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2; /* 120% */
+  text-align: center;
+  color: #1F314F;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;       /* 140% */
+  letter-spacing: 0.2px; /* importante, no lo tenías */
+  text-align: center;
+  color: #68778D;
+}
+
+
+
+.text {
+  width: 288px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+
+
+
+
+
